@@ -16,6 +16,7 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 
+import {HttpClientModule} from '@angular/common/http'
 // Auth service
 import { AuthService } from "./shared/services/auth.service";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -38,6 +39,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AngularFireStorageModule,
     AngularFireDatabaseModule,
     NgbModule,
+    HttpClientModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]

@@ -7,6 +7,20 @@ import {
   AngularFirestoreDocument,
 } from '@angular/fire/compat/firestore';
 import { Router } from '@angular/router';
+
+// L AJOUTE DE DONNE
+import {
+  addDoc,
+  Firestore,
+  collection,
+  getDocs,
+  doc,
+  updateDoc,
+  deleteDoc
+
+} from '@angular/fire/firestore'
+
+
 @Injectable({
   providedIn: 'root',
 })
